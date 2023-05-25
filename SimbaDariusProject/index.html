@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO'S Non-Governmental Organization</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      #logo{
+          border-radius: 100%;
+          width: 20vh;
+          height: 20vh;
+      }
+      .dropdown-menu li a:hover{
+        color: brown;
+      }
+      .card {
+        transition: all 0.3s ease-in-out;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .social-media a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 24px;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+      .social-media a:hover {
+        color: #0077B5;
+      }
+      #carousel{
+        height: 100vh;
+      }
+      #card{
+        height: 30vh;
+      }
+    </style>
+</head>
+<body>
+    <!-- navigation bar-->
+<section class="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <img id="logo" src="Images/logo.png" alt="Pilakans logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <div class="nav-item">
+                            <a class="nav-link active text-light fw-bold"aria-current="page" href="index.html">
+                              Home
+                            </a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-light fw-bold" href="about us.html us.html">
+                              Who we are
+                            </a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-light fw-bold" href="Activity.html">
+                            What we do
+                            </a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-light fw-bold" href="our services.html">
+                            Our services
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="location.html">location</a>
+                          </li>
+                          <li><a class="dropdown-item" href="objectives and achievements.html">Our objectives</a>
+                          </li>
+                          <li><a class="dropdown-item" href="patners.html">Our partners</a>
+                          </li>
+                          <li><a class="dropdown-item" href="our history.html">Our History</a>
+                        </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+    </section>
+</div>
+<!-- Carousel section -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/annie-spratt-cVEOh_JJmEE-unsplash.jpg" class="d-block w-100" alt="Help the needy" id="carousel">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark display-5">Help the needy</h5>
+          <p class="text-info fw-bold display-6">We work towards improving the lives of those who cannot support themselves</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/marcos-paulo-prado-83JZupwXfhU-unsplash.jpg" class="d-block w-100" alt="Assist the helpless" id="carousel">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark display-5">Have a heart</h5>
+          <p class="text-success fw-bold display-6">Sharing is Caring!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Images/ian-schneider-TamMbr4okv4-unsplash.jpg" class="d-block w-100" alt="We help those in need" id="carousel">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-dark display-5">Live,Love and serve</h5>
+          <p class="text-danger fw-bold display-6">We aim to enrich the lives of the incoming generation</p>
+        </div>
+      </div>
+    </div>
+    <!-- carousel control buttons,next and previous -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <!-- Background image -->
+<body style="background: url('Images/joel-muniz-BErJJL_KsjA-unsplash.jpg') no-repeat center center fixed; background-size: cover;">
+  <div class="container h-100 d-flex align-items-center">
+    <div class="text-center w-100">
+      <h1 class="text-white">Hello,and Welcome to our Website</h1>
+      <p class="text-white">We appreciate you and acknowledge you as a partner willing to enrich the lives of others</p>
+    </div>
+  </div>
+</body>
+<!-- Card Section -->
+<br><br>
+<section class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <img src="Images/national-cancer-institute-PP5nO5gcLdA-unsplash.jpg" class="card-img-top" alt="Long Bag" width="100%" srcset="" id="card">
+            <div class="card-body">
+                <h4 class="card-title">Our research</h4>
+                <P class="card-text">We use technology and information to chart a course to brighter future for our comming generation and find ways to provide to those without</P>
+                <a href="our services.html" class="btn btn-primary">What we do</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card">
+        <img src="Images/geetanjal-khanna-8CwoHpZe3qE-unsplash.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+        <h5 class="card-title">Our Motto</h5>
+        <p class="card-text">We live to change and enrich the lives of thode afflicted by circumstances unavoidable</p>
+        <a href="about us.html" class="btn btn-primary">About us</a>
+      </div>
+    </div>
+  </div>    
+    <div class="col-md-3">
+        <div class="card">
+            <img src="Images/krakenimages-Y5bvRlcCx8k-unsplash.jpg" class="card-img-top" alt="our goal" width="100%" id="card">
+            <div class="card-body">
+                <h4 class="card-title">Our goal</h4>
+                <p class="card-text">We partner to enrich the lives of others and join forces in order to guarantee a brighter future for the comming generation</p>
+                <a href="patners.html" class="btn btn-primary">Join us in the fight</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <img src="Images/julian-gentilezza-IWoHLg2-UQU-unsplash.jpg" class="card-img-top" alt="donation" width="100%">
+            <div class="card-body">
+                <h4 class="card-title">Charity at heart</h4>
+                <p class="card-text">We focus on putting a smile in the heart of others,as charity begins ta home</p>
+                <a href="patners.html" class="btn btn-primary">Donate</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer section -->
+<footer>
+  <section class="row">
+    <div class="col-md-6 bg-secondary text-center">
+      <img id="logo"src="Images/logo.png" alt="PILAKANS logo">
+    </div>
+    <div class="col-md-3 bg-secondary ">
+        <h3 class="text-light"> <u>Contact us:</u>
+        </h3>
+        <p class="text-light">David Kariuki</p>
+        <p class="text-light">Location:Vilage market</p>
+        <p class="text-light">PO.BOX:00062</p>
+        <p class="text-light">Tel:+25437322606</p>
+        <p class="text-light">+91344567776</p>
+    </div>
+    <div class="col-md-3 bg-secondary">
+        <p class="text-light">+25434542663</p>
+        <p class="text-light">+13458678678</p>
+        <p class="text-light">+25429552663</p>
+    <!-- Social media icons -->
+    <div class="social-media bg-secondary">
+      <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+      <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+    </div>
+      <b>Developed by Darius</b>
+      <i>Copyright&copy;2023 </i>
+    </div>
+  </section>
+</footer>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our partners</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #logo{
+            border-radius: 100%;
+            width: 20vh;
+            height: 20vh;
+        }
+        .dropdown-menu li a:hover{
+          color: brown;
+        }
+        .card {
+          transition: all 0.3s ease-in-out;
+        }
+        .card:hover {
+          transform: translateY(-10px);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .social-media a {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 24px;
+        color: #333;
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      .social-media a:hover {
+        color: #0077B5;
+      }
+      #treasurer{
+        width: 30vh;
+        height: 40vh;
+      }
+      </style>
+</head>
+<body>
+    <!-- navigation bar-->
+<section class="col-md-12">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <img id="logo" src="Images/logo.png" alt="Pilakans logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <div class="nav-item">
+                            <a class="nav-link active text-info fw-bold" aria-current="page" href="index.html">Home</a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-info fw-bold" href="about us.html">Who we are</a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-info fw-bold" href="Activity.html">
+                            What we do
+                            </a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-info fw-bold" href="our services.html">
+                            Our services
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Dropdown menu -->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="location.html">location</a>
+                          </li>
+                          <li><a class="dropdown-item" href="objectives and achievements.html">Our objectives</a>
+                          </li>
+                          <li><a class="dropdown-item" href="patners.html">Our partners</a>
+                          </li>
+                          <li><a class="dropdown-item" href="our history.html">Our History</a>
+                        </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+    </section>
+</div>
+<!-- Background image section -->
+<body style="background: url('Images/sincerely-media-EtyBBUByPSQ-unsplash.jpg') no-repeat center center fixed; background-size: cover;">
+    <div class="container h-100 d-flex align-items-center">
+      <div class="text-center w-100">
+        <h1 class="text-primary" id="Header">Join Us:</h1>
+        <p class="text-dark">Please provide your details,to join us in our donation campaign</p>
+      </body> 
+    <!--Registration form for Donation And partnership  -->
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" placeholder="First name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Lastname" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Country</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Kenya</option>
+            <option >Tanzania</option>
+            <option >Afganistan</option>
+            <option >Egypt</option>
+            <option >Malawi</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+            <div>
+              <a href="links and webpages/about us.html" class="btn btn-success">Submit</a>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="align-items-center text-info display-3 ">
+          <u>
+          Partcipants
+          </u>
+        </div>
+        <br><br>
+      <!-- Card section -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-bg-dark">
+            <img src="Images/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt="" srcset="">
+              <div class="card-imd-overlay">
+                <h5 class="card-title text-center"> 
+                  <u>Crystal Hleishme</u>
+                </h5>
+                <p class="card-text">
+                  I am glad I was able to save and better the lives of other people in order to give them a brighter future,I thank the PILAKANS Organization for enabling us to reach out a helping hand to those in need.
+                </p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-bg-dark">
+            <img src="Images/mubariz-mehdizadeh-t3zrEm88ehc-unsplash.jpg" alt="" srcset="">
+              <div class="card-imd-overlay">
+                <h5 class="card-title text-center"> 
+                  <u>Danny Elvis</u>
+                </h5>
+                <p class="card-text">"I recently donated to Pilakans Enterprise and I was impressed by the positive impact they are making in communities. They are helping to improve the lives of those in need by providing education, healthcare, and basic necessities. It's heartwarming to see the difference they are making and I encourage others to donate and support this fantastic organization."</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-bg-dark">
+            <img src="Images/daniel-lincoln-NR705beN_CU-unsplash.jpg" alt="" srcset="">
+              <div class="card-imd-overlay">
+                <h5 class="card-title text-center"> 
+                  <u>Felix Watsson</u>
+                </h5>
+                <p class="card-text">"Pilakans Enterprise is making a huge difference in the world. Their work is truly inspiring and it's amazing to see the positive impact they are having on people's lives. By supporting this organization, we can all play a part in making the world a better place. I highly encourage everyone to donate and be a part of this incredible cause."</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-bg-dark">
+            <img src="Images/batel-studio-ttSRjiYG_WM-unsplash.jpg" alt="" srcset="">
+              <div class="card-imd-overlay">
+                <h5 class="card-title text-center"> 
+                  <u>Abby Wasabi</u>
+                </h5>
+                <p class="card-text">"Pilakans Enterprise is doing an amazing job of bringing hope to people in need. They are providing crucial support to communities that often go overlooked and their efforts are making a real difference. I believe that by supporting organizations like Pilakans Enterprise, we can make a real impact in the world. I encourage others to donate and help make a difference in someone's life."</p>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!-- company Tresurer remarks -->
+  <div class="row">
+    <div class="col-md-2">
+      <div class="card text-bg-dark">
+        <img src="Images/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg" alt="Treasurer" srcset="" id="tresurer">
+          <div class="card-imd-overlay">
+            <h5 class="card-title text-center"> 
+              <u class="display-6">Treasurer</u>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-10">
+        <h3 class="display-6"><u> Company Remarks</u></h3>
+        <p>"Dear friends and supporters of Pilakans Enterprise, it is with great joy and gratitude that I stand before you today as the Treasurer of this amazing organization. Together, we have made a tremendous impact in the lives of those in need, and I want to take a moment to encourage each and every one of you to keep up the good work. Your generosity, kindness, and selflessness are the driving force behind our success, and I am honored to be a part of this community. Let's continue to spread love, hope, and happiness to those in need, one donation at a time. Together, we can make a world of difference."</p>
+    </div>
+  </div>
+        <!-- Footer section -->
+<footer>
+  <section class="row">
+    <div class="col-md-6 bg-secondary text-center">
+      <img id="logo"src="Images/logo.png" alt="Pilakans logo">
+    </div>
+    <div class="col-md-3 bg-secondary ">
+      <h3 class="text-light">
+         <u>Contact us:</u>
+      </h3>
+      <p class="text-light">David Kariuki</p>
+      <p class="text-light">Location:Vilage market</p>
+      <p class="text-light">PO.BOX:00062</p>
+      <p class="text-light">+25437322606</p>
+      <p class="text-light">+91344567776</p>
+    </div>
+    <div class="col-md-3 bg-secondary">
+      <p class="text-light">+25434542663</p>
+      <p class="text-light">+13458678678</p>
+      <p class="text-light">+25429552663</p>
+    <div class="social-media bg-secondary">
+      <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+      <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+    </div>
+      <b>Developed by Darius</b>
+      <i>Copyright&copy;2023 </i>
+    </div>
+  </section>
+</footer>
+</body>
+</html>
